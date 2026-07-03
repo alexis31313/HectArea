@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hectarea/gps_test_screen.dart';
 
 void main() {
   runApp(const HectAreaApp());
@@ -16,7 +17,7 @@ class HectAreaApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const GpsTestScreen(),
     );
   }
 }
